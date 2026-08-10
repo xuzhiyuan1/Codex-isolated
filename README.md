@@ -6,8 +6,8 @@
 
 ## 当前版本
 
-- 最新版本：`Codex2-v0.0.zip`
-- 历史版本：暂无
+- 最新版本：`Codex2-v0.1.zip`
+- 历史版本：`history/Codex2-v0.0.zip`
 - 支持设备：Apple 芯片 Mac（M1 或更新）
 - 最低系统版本：macOS 12.0
 
@@ -25,7 +25,7 @@ cd Codex-isolated
 解压最新版：
 
 ```bash
-ditto -x -k Codex2-v0.0.zip .
+ditto -x -k Codex2-v0.1.zip .
 ```
 
 然后把解压得到的 `Codex.app` 拖入“应用程序”文件夹。首次启动时，可以在 Finder 中右键应用并选择“打开”。
@@ -41,6 +41,13 @@ ditto -x -k Codex2-v0.0.zip .
 
 ## 版本说明
 
+### v0.1
+
+- 保留 v0.0 的原版界面和独立账号环境
+- 应用名称仍为 `Codex`
+- 更换为蓝紫色 Codex 应用图标
+- 不包含水印、皮肤或输入框样式修改
+
 ### v0.0
 
 - 从原版 ChatGPT/Codex 应用重新部署
@@ -52,11 +59,13 @@ ditto -x -k Codex2-v0.0.zip .
 ## 文件校验
 
 ```text
-67c9ab62441e66ce53193329a31aaa4b27054aefab1c558631051f2468eea101  Codex2-v0.0.zip
+fb261636aa5bc2242c6c1d914af34d70ff3cbf18286c6223743eb246ef55fd89  Codex2-v0.1.zip
+67c9ab62441e66ce53193329a31aaa4b27054aefab1c558631051f2468eea101  history/Codex2-v0.0.zip
 ```
 
 可以使用下面的命令核对：
 
 ```bash
-shasum -a 256 Codex2-v0.0.zip
+shasum -a 256 Codex2-v0.1.zip
+shasum -a 256 history/Codex2-v0.0.zip
 ```

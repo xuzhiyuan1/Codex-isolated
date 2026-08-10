@@ -9,9 +9,9 @@
 ```text
 README.md
 AGENTS.md
-Codex2-v0.0.zip
+Codex2-v0.1.zip
 history/
-└── .gitkeep
+└── Codex2-v0.0.zip
 ```
 
 最新版本始终放在仓库根目录。发布新版本时，把上一版移动到 `history/`，文件名统一使用 `Codex2-vX.Y.zip`。
@@ -51,7 +51,7 @@ history/
 
 1. 从当前官方 `/Applications/ChatGPT.app` 复制一个全新应用包。
 2. 不复用旧版本的 `app.asar`、CSS、图片或其他界面资源。
-3. 只修改 `Info.plist` 和增加隔离启动器。
+3. 只修改 `Info.plist`、增加隔离启动器，以及按版本要求替换应用图标；不得修改 `app.asar` 或聊天界面资源。
 4. 启动器必须使用当前用户的主目录动态计算隔离路径，不能硬编码用户名。
 5. 修改应用包后，使用本机临时签名：
 
@@ -89,6 +89,7 @@ git lfs ls-files
 
 ## 当前版本状态
 
-- `v0.0`：首个干净重建版；无水印、无皮肤、无界面补丁。
-- `history/`：当前为空，后续发布新版本时再移入旧版本。
+- `v0.1`：沿用 v0.0 的干净界面和隔离机制，仅更换蓝紫色 Codex 应用图标。
+- `v0.0`：首个干净重建版，已归档至 `history/Codex2-v0.0.zip`。
+- 所有版本均无水印、无皮肤、无输入框或聊天界面补丁。
 - 当前构建目标：Apple Silicon（arm64），macOS 12.0 或更新版本。
