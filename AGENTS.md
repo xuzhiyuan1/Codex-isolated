@@ -9,8 +9,9 @@
 ```text
 README.md
 AGENTS.md
-Codex2-v0.1.zip
+Codex2-v0.2.zip
 history/
+├── Codex2-v0.1.zip
 └── Codex2-v0.0.zip
 ```
 
@@ -89,7 +90,8 @@ git lfs ls-files
 
 ## 当前版本状态
 
-- `v0.1`：沿用 v0.0 的干净界面和隔离机制，仅更换蓝紫色 Codex 应用图标。
+- `v0.2`：更新至官方 Codex `26.814.41407 / 6720`，沿用 v0.1 的蓝紫色图标和隔离机制。
+- `v0.1`：沿用 v0.0 的干净界面和隔离机制，仅更换蓝紫色 Codex 应用图标，已归档至 `history/Codex2-v0.1.zip`。
 - `v0.0`：首个干净重建版，已归档至 `history/Codex2-v0.0.zip`。
 - 所有版本均无水印、无皮肤、无输入框或聊天界面补丁。
 - 当前构建目标：Apple Silicon（arm64），macOS 12.0 或更新版本。
