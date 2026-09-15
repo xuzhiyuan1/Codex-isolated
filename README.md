@@ -6,7 +6,7 @@
 
 ## 当前版本
 
-- 最新版本：`Codex2-v0.4.zip`
+- 最新版本：`Codex2-v0.5.zip`
 - 仓库只保留根目录的最新安装包；历史版本不随仓库保存
 - 支持设备：Apple 芯片 Mac（M1 或更新）
 - 最低系统版本：macOS 12.0
@@ -25,7 +25,7 @@ cd Codex-isolated
 解压最新版：
 
 ```bash
-ditto -x -k Codex2-v0.4.zip .
+ditto -x -k Codex2-v0.5.zip .
 ```
 
 然后把解压得到的 `Codex.app` 拖入“应用程序”文件夹。首次启动时，可以在 Finder 中右键应用并选择“打开”。
@@ -40,6 +40,13 @@ ditto -x -k Codex2-v0.4.zip .
 安装包不包含当前电脑的账号、Cookie、数据库或聊天记录。在另一台 Mac 首次启动时，需要重新登录要隔离使用的账号。
 
 ## 版本说明
+
+### v0.5
+
+- 更新至官方 Codex `26.908.70816 / 9275`
+- 保留蓝紫色 Codex 应用图标
+- 保留独立账号环境
+- 不包含水印、皮肤或输入框样式修改
 
 ### v0.4
 
@@ -79,11 +86,11 @@ ditto -x -k Codex2-v0.4.zip .
 ## 文件校验
 
 ```text
-60f24b50e6823cbe691082168aee6e472b1e077a59e82bd12566ca017e4112fe  Codex2-v0.4.zip
+4dca3797c1c36b43d46eba67ad77564576ff88a8e0a05c8c70b29ec437d75c1d  Codex2-v0.5.zip
 ```
 
 可以使用下面的命令核对：
 
 ```bash
-shasum -a 256 Codex2-v0.4.zip
+shasum -a 256 Codex2-v0.5.zip
 ```
